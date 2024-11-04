@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дерматологичен формуляр</title>
+</head>
+<body>
+    <h1>Дерматологичен формуляр</h1>
+    <form action="">
+        <fieldset>
+            <legend> Общи:</legend>
+            <label for="name">Име:</label>
+             <input type="text" id="name" name="name" placeholder="Въведете инициали">
+             <br>
+              <label for="age">Възраст:</label>
+              <input type="number" id="age"min="18" max="60" placeholder="Въведете възраст">
+              <br>
+              <label for="">Пол:</label>
+              <input type="radio" id="male" name="gender" value="1">
+              <label for="male">Мъж</label>
+              <input type="radio" id="female" name="gender" value="2">
+              <label for="female">Жена</label>
+              <br>
+              <label for="email">Имейл адрес:</label>
+               <input type="email" id="email" name="email" placeholder="Въведете имейл">
+               <br>
+               <label for="height">Височина:</label>
+               <input type="number" id="height" name="height" placeholder="Посочете вашия ръст">
+               <br>
+               <label for="weight">Тегло:</label>
+               <input type="number" id="weight" name="weight" placeholder="Посочете вашето тегло">
+               <br>
+        </fieldset>
+        <fieldset>
+             <legend> Специфични: </legend>
+             <label for="">Имате ли алергии?</label>
+             <br>
+              <input type="checkbox" id="nickel" name="allergies" value="1">
+              <label for="nickel">Никел</label>
+              <br>
+              <input type="checkbox" id="Dust mites" name="allergies" value="2">
+              <label for="Dust mites">Прахови акари</label>
+              <br>
+              <input type="checkbox" id="Pollen" name="allergies" value="3">
+              <label for="Pollen">Полен</label>
+              <br>
+               <input type="checkbox" id="mattress" name="allergies" value="4">
+              <label for="mattress">Матица на стъртилото</label>
+              <br>
+              <input type="checkbox" id="skin_products" name="allergies" value="5">
+              <label for="skin_products">Кожни продукти</label>
+              <br>
+              <input type="checkbox" id="latex" name="allergies" value="6">
+              <label for="latex">Латекс</label>
+              <br>
+              <input type="checkbox" id="food_allergies" name="allergies" value="7">
+              <label for="food_allergies">Плодовите алергии</label>
+              <br>
+              <input type="checkbox" id="wood_pollen" name="allergies" value="8">
+              <label for="wood_pollen">Дървесен прашец</label>
+              <br>
+              <input type="checkbox" id="milk" name="allergies" value="9">
+              <label for="milk">Мляко или млечни продукти</label>
+              <br>
+              <input type="checkbox" id="nuts" name="allergies" value="10">
+              <label for="nuts">Ядки</label>
+              <br>
+              <input type="checkbox" id="fish" name="allergies" value="11">
+              <label for="fish">Рибни продукти</label>
+            <br>
+            <input type="checkbox" id="eggs" name="allergies" value="12">
+            <label for="eggs">Яйца</label><br>
+            <input type="checkbox" id="soy" name="allergies" value="13">
+            <label for="soy">Соя</label>
+            <br>
+            <input type="checkbox" id="spinach" name="allergies" value="14">
+            <label for="spinach">Спанак</label>
+            <br>
+            <input type="checkbox" id="chemical_substances" name="allergies" value="15">
+            <label for="chemical_substances">Прахови и химически субстанции</label>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Честота:</legend>
+              <label for="">Колко често изпитвате алергична реакция?</label>
+              <input type="radio" id="sometimes" name="frequency" value="1">
+              <label for="sometimes">Понякога</label>
+              <input type="radio" id="often" name="frequency" value="2">
+              <label for="often">Често</label>
+               <input type="radio" id="always" name="frequency" value="3">
+              <label for="often">Винаги</label>
+              <br>
+        </fieldset>
+        <fieldset>
+             <legend>Симптоми:</legend>
+             <label for="">Какви симптоми изпитвате при алергична реакция?</label>
+              <br>
+             <input type="checkbox" id="rash" name="symptoms" value="1">
+             <label for="rash">Обрив</label>
+             <br>
+             <input type="checkbox" id="itching" name="symptoms" value="2">
+             <label for="itching">Сърбеж</label>
+             <br>
+             <input type="checkbox" id="swelling" name="symptoms" value="3">
+             <label for="swelling">Оток</label>
+             <br>
+             <input type="checkbox" id="difficulty_breathing" name="symptoms" value="4">
+             <label for="difficulty_breathing"> Трудности с дишането</label>
+             <br>
+        </fieldset>
+        <fieldset>
+            <legend>Медикаменти:</legend>
+             <label for="">Приемате ли в момента други лекарства против алергии?</label>
+             <br>
+             <input type="checkbox" id="h1_antihistamines" name="medication" value="1">
+             <label for="h1_antihistamines">H1 Антихистамини</label>
+             <br>
+             <input type="checkbox" id="h2_antihistamines" name="medication" value="2">
+             <label for="h2_antihistamines">H2 Антихистамини</label>
+             <br>
+             <input type="checkbox" id="cell_stabilizers" name="medication" value="3">
+             <label for="cell_stabilizers">Клетъчни стабилизатори</label>
+             <br>
+             <input type="checkbox" id="decongestants" name="medication" value="5">
+             <label for="decongestants">Деконгестанти</label>
+             <br>
+             <input type="checkbox" id="corticosteroids" name="medication" value="7">
+             <label for="">Кортикостероиди</label>
+             <br>
+        </fieldset>
+        <fieldset>
+            <legend>Съпровождащи заболявания:</legend>
+             <label for="">Отбележете вродени или съпровождащи заболявания</label>
+             <br>
+             <input type="checkbox" id="hypertension" name="disease" value="1">
+             <label for="hypertension">Хипертония</label>
+             <br>
+             <input type="checkbox" id="asthma" name="disease" value="2">
+             <label for="asthma">Астма</label>
+             <br>
+             <input type="checkbox" id="diabed" name="disease" value="3">
+             <label for="diabed">Диабед</label>
+             <br>
+             <input type="checkbox" id="hobb" name="disease" value="4">
+             <label for="hobb">ХОББ (Хронична обструктивна белодробна болест</label>
+             <br>
+             <input type="checkbox" id="bz" name="disease" value="5">
+             <label for="bz">Бъбречно заболяване</label>
+             <br>
+             <input type="checkbox" id="demeciq" name="disease" value="6">
+             <label for="demeciq">Деменция</label>
+             <br>
+             <input type="checkbox" id="AZ" name="disease" value="7">
+             <label for="AZ">Алцхаймер заболявание</label>
+             <br>
+        </fieldset>
+        <fieldset>
+            <legend>Въпроси:</legend>
+            <label for="">Имате ли в близкото си семейство хора с кожни заболявания?</label>
+            <br>
+            <input type="radio" id="?_yes" name="?_disease" value="1">
+            <label for="?_yes">Да</label>
+            <br>
+            <input type="radio" id="?_no" name="?_disease" value="2">
+            <label for="?_no">Не</label>
+            <br>
+            <label for="">Консумирате ли редовно витамини или добавки за кожата?</label>
+            <br>
+            <input type="radio" id="?_yes" name="?_disease" value="1">
+            <label for="?_yes">Да</label>
+            <br>
+            <input type="radio" id="?_no" name="?_disease" value="2">
+            <label for="?_no">Не</label>
+            <br>
+            <label for="">Участие в клинично проучване в рамките на 60 дни преди скрининга.</label>
+            <br>
+            <input type="radio" id="?_yes" name="?_disease" value="1">
+            <label for="?_yes">Да</label>
+            <br>
+            <input type="radio" id="?_no" name="?_disease" value="2">
+            <label for="?_no">Не</label>
+            <br>
+            <label for="">Повишена телесна температура ≥39,0°C аксиларна</label>
+            <br>
+            <input type="radio" id="?_yes" name="?_disease" value="1">
+            <label for="?_yes">Да</label>
+            <br>
+            <input type="radio" id="?_no" name="?_disease" value="2">
+            <label for="?_no">Не</label>
+            <br>
+            <label for="therapy_duration">Изберете прием на предписаната терапия:</label>
+            <br>
+            <select name="days" id="therapy_duration">
+                <option value="">---</option>
+                <option value="1" selected>5 дни</option>
+                <option value="2">7 дни</option>
+                <option value="3">12 дни</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>
